@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Ask a question / get help
+    url: https://github.com/orgs/kredex-org/discussions/categories/q-a
+    about: Questions and setup help are best answered in Discussions.
+  - name: 💡 Share an idea
+    url: https://github.com/orgs/kredex-org/discussions/categories/ideas
+    about: Brainstorm and get feedback before opening a feature request.
+  - name: 🔐 Report a security vulnerability
+    url: https://github.com/kredex-org/.github/blob/main/SECURITY.md
+    about: Please report privately. Do not open a public issue.
+  - name: 📚 Read the docs
+    url: https://kredex-docs.vercel.app
+    about: Guides for setup, architecture and usage.
