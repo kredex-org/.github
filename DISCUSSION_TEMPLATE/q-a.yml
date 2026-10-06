@@ -1,0 +1,22 @@
+title: "[Q&A] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        No question is too small! Please search existing discussions and the [docs](https://kredex-docs.vercel.app) first.
+        **Never share secret keys (`S...`) or seed phrases.**
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment (OS, Node/Rust version, wallet, network)

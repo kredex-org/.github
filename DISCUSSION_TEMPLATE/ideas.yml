@@ -1,0 +1,31 @@
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea! The more context you give, the better feedback you'll get. 💡
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What do you want to see in Kredex?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it valuable?
+      description: Who benefits - borrowers, lenders, contributors?
+    validations:
+      required: true
+  - type: textarea
+    id: how
+    attributes:
+      label: How could it work?
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Can you help?
+      options:
+        - label: I'd like to help build this
