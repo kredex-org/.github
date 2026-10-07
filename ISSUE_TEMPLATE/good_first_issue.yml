@@ -1,0 +1,41 @@
+name: 🌱 Good first issue (maintainers)
+description: Maintainer template for beginner-friendly tasks
+labels: ["good first issue", "help wanted", "difficulty: beginner"]
+body:
+  - type: markdown
+    attributes:
+      value: "Template for maintainers to write mentor-style, beginner-friendly tasks."
+  - type: textarea
+    id: summary
+    attributes:
+      label: What needs to be done?
+      description: Describe the task in plain language.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it matter?
+  - type: textarea
+    id: files
+    attributes:
+      label: Where to look
+      description: Files, folders or functions to start with.
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: hints
+    attributes:
+      label: Hints and resources
+  - type: input
+    id: mentor
+    attributes:
+      label: Mentor
+      description: GitHub handle of who will help.
